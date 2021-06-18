@@ -1,0 +1,16 @@
+show databases;
+use bancoprodutos;
+show tables;
+describe produtos;
+select * from produtos;
+select * from produtos where cor = "azul";
+select * from produtos where valor >= 100;
+select * from produtos where valor >= 100 and valor <=200;
+
+select from aluno where nome, turma, media >=8;
+select from aluno where nome, turma, media <=5;
+select from professor where nome, disciplina, salario >=1000;
+select from professor where nome, disciplina, salario <=5000;;
+select from funcionario where nome, turno, setor ≠coordenação;
+
+
